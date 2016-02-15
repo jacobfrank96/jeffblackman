@@ -1,6 +1,119 @@
-echo "# jeffblackman" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/jacobfrank96/jeffblackman.git
-git push -u origin master
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Babysitter Directory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.modal.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+  </head>
+  <body>
+
+    <!-- Modals; Edit with care -->
+    <div id="img1" style="display:none;">
+
+       <h2>Fill Out This Form To Be Listed For Hire</h2>
+
+      <form action="//formspree.io/jacobfrank@wustl.edu" method="POST">
+        <div>
+          <label>Please enter your name:        </label>
+          <input type="text" name="name" value="ex: John Smith" size=80>
+        </div>
+        <div>
+          <label>Please Enter Your Age:         </label>
+          <input type="text" name="age" value="ex: 26" size=80>
+        </div>
+        <div>
+          <label>Please Enter Your Phone Number:</label>
+          <input type="text" name="phone number" value="ex: 718-594-2465" size="80">
+        </div>
+        <div>
+          <label>Please Enter Your Email:       </label>
+           <input type="text" name="email" value="ex: jsmith@mail.com" size="80">
+          </div>
+        <div>
+          <input type="submit" value="Send">
+        </div>
+      </form>
+
+    </div>
+    
+    
+     <div id="img2" style="display:none;">
+
+       <h2>How Was Your Babysitter?</h2>
+
+      <form action="//formspree.io/jacobfrank@wustl.edu" method="POST">
+        <div>
+          <label>Please enter the babysitter's name: </label>
+          <input type="text" name="Babysitters Name" value="" size=80>
+        </div>
+        <div>
+          <label>Please rate your babysitter on a scale from 1 (poor) to 10 (excellent):</label>
+          <input type="text" name="Rating" value="" size=80>
+        </div>
+        <div>
+          <label>If you would like, describe in words how your babysitter performed:</label>
+          <input type="text" name="Description" value="" size="80">
+        </div>
+        <div>
+          <input type="submit" value="Send">
+        </div>
+      </form>
+
+    </div>
+
+    <div class="container">
+
+      <section class="page-header">
+        <h1 class="project-name">Babysitter Directory</h1>
+        <h2 class="project-tagline">Babysitters In Town.</h2>
+        <p>Babysitters Looking For Hire.</p>
+        <a href="#img1" rel="modal:open" class="button">Fill out this form</a>
+        <p>Parents</p>
+        <a href="#img2" rel="modal:open" class="button">Rate Your Babysitter</a>
+        
+
+      </section>
+
+      <section class="main-content">
+        <h3>List of Babysitters</h3>
+        <table>
+          <tr>
+            <th>Rating(1-10)</th>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Jeff Blackman</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Enzo Takagi</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Sreyas Chantipalli</td>
+            <td>21</td>
+          </tr>
+          
+         
+        </table>
+      </section>
+
+      <footer class="site-footer">
+        <hr>
+        <p>Copyright 2016 Jacob Frank.</p>
+      </footer>
+      <!-- JavaScript; Do not edit below -->
+       <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/jquery.modal.min.js"></script>
+
+    </div>
+  </body>
+</html>
