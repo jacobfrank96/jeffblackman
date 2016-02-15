@@ -1,0 +1,46 @@
+-<!DOCTYPE html>
+ -<html lang="en-us">
+ -  <head>
+ -    <meta charset="UTF-8">
+ -    <title>Jeff Blackman</title>
+ -    <meta name="viewport" content="width=device-width, initial-scale=1">
+ -    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+ -    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+ -    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+ -  </head>
+ -  <body>
+ -    <div class="container">
+ -
+ -      <section class="page-header">
+ -        <h1 class="project-name">Jeff Blackman</h1>
+ -      </section>
+ -
+ -      <section class="main-content">
+ -        <h3 >Education</h3>
+ -        <hr>
+ -        <h4>Wash U</h4>
+ -        <h5>Location:</h5>
+ -        <p>Vegas</p>
+ -        <hr>
+ -        <p>Hello world, Jacob is a really nice kid who has good hygene.He is a sophmore in the college of arts and sci but he is switching into the engineering school to major in computer science...Wish him luck!!!!!!</p>
+ -        <hr>
+ -        <ul>
+ -          <li>Skills:</li>
+ -          <p>Making/finding memes. <a href="https://twitter.com/ChildhoodShows/status/356899529838190592/photo/1">Here's an example</a></p>
+ -          
+ -          <p>Vape tricks</p>
+ -          <p>CPR</p>
+ -          <li>
+ -            <a href="https://www.facebook.com/gadiel.rosenblut?fref=ts">My Facebook page</a>
+ -          </li>
+ -        </ul>
+ -      </section>
+ -
+ -      <footer class="site-footer">
+ -        <hr>
+ -        <p>footer stuff goes here</p>
+ -      </footer>
+ -
+ -    </div>
+ -  </body>
+ -</html>
